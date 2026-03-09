@@ -14,5 +14,5 @@ def get_md5(data: str):
     return {"result": hashed.hexdigest()}
 
 @app.get("/add")
-def get_md5(left: int, right: int):
+def add(left: int, right: int):
     return {"result": left + right }
